@@ -68,4 +68,4 @@ No positions, formations, or pitch diagram. It tracks on and off, not where. No 
 
 [MIT](LICENSE).
 
-The bundled Chivo font files in `fonts/` are not covered by that. Chivo is released by Omnibus-Type under the SIL Open Font License 1.1 and stays under its own terms.
+The bundled Chivo font files in `fonts/` are not covered by that. Chivo is copyright 2019 The Chivo Project Authors and is released under the SIL Open Font License 1.1, a copy of which sits alongside them in [`fonts/OFL.txt`](fonts/OFL.txt). The files here are subsets of the upstream font, cut down to latin and latin-ext.
