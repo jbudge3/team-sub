@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2A2E2B">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="description" content="Sideline substitution tracker. Who is on, who is resting, and how long each has been there.">
+<title>team-sub</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="board" id="board" data-phase="setup" data-clock="idle">
+
+  <!-- ── top frame rail ───────────────────────────────────────────── -->
+  <header class="rail rail--top" id="topRail">
+
+    <div class="rail__title" id="railTitle">
+      <span class="rail__titleMain" id="railTitleMain">Team sheet</span>
+      <span class="rail__titleSub" id="railTitleSub">The squad stays on this device between games.</span>
+    </div>
+
+    <div class="periods" id="periods">
+      <div class="periods__marks" id="periodMarks" aria-hidden="true"></div>
+      <p class="periods__label" id="periodLabel">Quarter 1</p>
+      <button type="button" class="btn btn--scratch periods__end" id="endPeriod"
+              data-arm="idle">End Q1</button>
+    </div>
+
+    <div class="clockbar">
+      <div class="clockbar__read">
+        <span class="clockbar__label" id="clockLabel">Elapsed</span>
+        <output class="clockbar__time" id="clockTime" aria-live="off">0:00</output>
+      </div>
+      <button type="button" class="clockbar__run" id="runClock">
+        <span id="runClockLabel">Start</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ── setup: roster + format ───────────────────────────────────── -->
+  <section class="setup" id="setup" aria-label="Roster and format">
+
+    <form class="entry" id="entryForm" autocomplete="off">
+      <div class="entry__row">
+        <label class="inputgroup">
+          <span class="inputgroup__label">No.</span>
+          <input class="input input--num" id="inNum" type="text" inputmode="numeric"
+                 pattern="[0-9]*" maxlength="2" placeholder="7">
+        </label>
+        <label class="inputgroup inputgroup--grow">
+          <span class="inputgroup__label">Name</span>
+          <input class="input" id="inName" type="text" maxlength="20" placeholder="Ava"
+                 aria-describedby="entryNote" required>
+        </label>
+        <button type="submit" class="btn btn--chalk entry__add">Add</button>
+      </div>
+      <p class="entry__note" id="entryNote">Numbers are optional and may repeat.</p>
+    </form>
+
+    <div class="format">
+      <div class="stepper" data-key="onField">
+        <span class="stepper__label">On the field</span>
+        <div class="stepper__ctrl">
+          <button type="button" class="btn btn--scratch stepper__btn" data-step="-1"
+                  aria-label="Fewer on the field"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 12h12"/></svg></button>
+          <output class="stepper__value" id="outOnField">7</output>
+          <button type="button" class="btn btn--scratch stepper__btn" data-step="1"
+                  aria-label="More on the field"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 6v12M6 12h12"/></svg></button>
+        </div>
+      </div>
+      <div class="stepper" data-key="quarters">
+        <span class="stepper__label">Quarters</span>
+        <div class="stepper__ctrl">
+          <button type="button" class="btn btn--scratch stepper__btn" data-step="-1"
+                  aria-label="Fewer quarters"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 12h12"/></svg></button>
+          <output class="stepper__value" id="outQuarters">4</output>
+          <button type="button" class="btn btn--scratch stepper__btn" data-step="1"
+                  aria-label="More quarters"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 6v12M6 12h12"/></svg></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="squad">
+      <div class="regionhead">
+        <h2 class="regionhead__name">Squad <span class="regionhead__count" id="squadCount">0</span></h2>
+        <p class="regionhead__legend" id="squadNeed">Add at least 7.</p>
+      </div>
+      <div class="lattice lattice--squad" id="squadLattice"></div>
+    </div>
+
+    <button type="button" class="btn btn--chalk setup__go" id="setupGo" disabled>Set the lineup</button>
+  </section>
+
+  <!-- ── the field ────────────────────────────────────────────────── -->
+  <section class="field" id="field" aria-label="On the field">
+    <div class="regionhead">
+      <h2 class="regionhead__name">On the field <span class="regionhead__count" id="fieldCount">0</span></h2>
+      <p class="regionhead__legend"><span class="legend-a">Shift</span><span class="legend-b">Game</span></p>
+    </div>
+    <div class="lattice lattice--field" id="fieldLattice"></div>
+  </section>
+
+  <!-- ── the dividing rail: stage, then commit ────────────────────── -->
+  <div class="rail rail--divide" id="divideRail" data-armed="false">
+    <span class="rail__count rail__count--off" id="countOff" hidden><b>0</b> off</span>
+    <button type="button" class="rail__commit" id="commit" hidden>Substitute</button>
+    <p class="rail__status" id="railStatus" role="status">Tap a disc to mark a change.</p>
+    <span class="rail__count rail__count--on" id="countOn" hidden><b>0</b> on</span>
+  </div>
+
+  <!-- ── the tray ─────────────────────────────────────────────────── -->
+  <section class="tray" id="tray" aria-label="Resting">
+    <div class="regionhead">
+      <h2 class="regionhead__name">Resting <span class="regionhead__count" id="trayCount">0</span></h2>
+      <p class="regionhead__legend"><span class="legend-a">Rest</span><span class="legend-b">Game</span></p>
+    </div>
+    <div class="lattice lattice--tray" id="trayLattice"></div>
+
+    <footer class="plate" id="plate">
+      <button type="button" class="btn btn--scratch" id="toRoster">Edit roster</button>
+      <button type="button" class="btn btn--scratch" id="newGame" data-arm="idle">New game</button>
+    </footer>
+  </section>
+
+</div>
+
+<template id="cellTpl">
+  <div class="cell">
+    <button type="button" class="disc" aria-pressed="false">
+      <svg class="arc" viewBox="0 0 100 100" aria-hidden="true" focusable="false"></svg>
+      <span class="disc__num"></span>
+    </button>
+    <span class="cell__name"></span>
+    <span class="cell__times"><b class="t-a"></b><i class="t-b"></i></span>
+    <button type="button" class="cell__drop" tabindex="-1">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M8 8l8 8M16 8l-8 8"/>
+      </svg>
+    </button>
+  </div>
+</template>
+
+<template id="ghostTpl">
+  <div class="cell cell--ghost" aria-hidden="true">
+    <span class="ghost"></span>
+    <span class="cell__name"></span>
+    <span class="cell__times"></span>
+  </div>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>

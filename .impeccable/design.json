@@ -1,0 +1,766 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-11T00:00:00Z",
+  "title": "Design System: team-sub",
+  "extensions": {
+    "colorMeta": {
+      "enamel": {
+        "role": "primary",
+        "displayName": "Pitch Enamel",
+        "canonical": "#0A4732",
+        "tonalRamp": [
+          "#041A12",
+          "#06251A",
+          "#063524",
+          "#0A4732",
+          "#0C5239",
+          "#1C6B4C",
+          "#4A9A78",
+          "#A9C0B4"
+        ]
+      },
+      "enamel-hi": {
+        "role": "primary",
+        "displayName": "Enamel Sheen",
+        "canonical": "#0C5239",
+        "tonalRamp": [
+          "#041D14",
+          "#06291C",
+          "#083D2A",
+          "#0C5239",
+          "#106648",
+          "#2A8460",
+          "#5FAD8A",
+          "#B6CEC1"
+        ]
+      },
+      "enamel-lo": {
+        "role": "primary",
+        "displayName": "Enamel Shadow",
+        "canonical": "#063524",
+        "tonalRamp": [
+          "#02110B",
+          "#041C13",
+          "#052A1C",
+          "#063524",
+          "#08472F",
+          "#0D5E40",
+          "#3F8B6B",
+          "#9EBDAC"
+        ]
+      },
+      "graphite": {
+        "role": "tertiary",
+        "displayName": "Graphite Steel",
+        "canonical": "#2A2E2B",
+        "tonalRamp": [
+          "#121412",
+          "#1B1E1C",
+          "#202421",
+          "#2A2E2B",
+          "#3B413C",
+          "#555B56",
+          "#7C837D",
+          "#A7AEA3"
+        ]
+      },
+      "graphite-hi": {
+        "role": "tertiary",
+        "displayName": "Rail Bevel",
+        "canonical": "#3B413C",
+        "tonalRamp": [
+          "#161816",
+          "#1F221F",
+          "#2A2E2B",
+          "#3B413C",
+          "#4B524C",
+          "#69706A",
+          "#8D948E",
+          "#B6BCB6"
+        ]
+      },
+      "chalk": {
+        "role": "neutral",
+        "displayName": "Chalk",
+        "canonical": "#F2EFE4",
+        "tonalRamp": [
+          "#2B2924",
+          "#494538",
+          "#6E6A59",
+          "#948F7C",
+          "#B9B3A2",
+          "#D9D4C2",
+          "#F2EFE4",
+          "#FFFEF8"
+        ]
+      },
+      "disc-face-hi": {
+        "role": "neutral",
+        "displayName": "Disc Highlight",
+        "canonical": "#FFFEF8",
+        "tonalRamp": [
+          "#2E2C25",
+          "#4D4939",
+          "#736E5B",
+          "#99947F",
+          "#BEB8A6",
+          "#DFDACB",
+          "#F2EFE4",
+          "#FFFEF8"
+        ]
+      },
+      "disc-face-lo": {
+        "role": "neutral",
+        "displayName": "Disc Shade",
+        "canonical": "#D9D4C2",
+        "tonalRamp": [
+          "#26241E",
+          "#3E3B31",
+          "#575345",
+          "#736E5C",
+          "#918B76",
+          "#B0AA94",
+          "#D9D4C2",
+          "#F0ECE0"
+        ]
+      },
+      "disc-rest-hi": {
+        "role": "neutral",
+        "displayName": "Resting Disc Highlight",
+        "canonical": "#F3F0E6",
+        "tonalRamp": [
+          "#2B2924",
+          "#484436",
+          "#6D6857",
+          "#938D7A",
+          "#B8B29D",
+          "#D8D2C1",
+          "#F3F0E6",
+          "#FFFDF6"
+        ]
+      },
+      "disc-rest-mid": {
+        "role": "neutral",
+        "displayName": "Resting Disc Face",
+        "canonical": "#E4E0D3",
+        "tonalRamp": [
+          "#27251F",
+          "#403C32",
+          "#5A5647",
+          "#77715E",
+          "#958F79",
+          "#B5AF98",
+          "#E4E0D3",
+          "#F6F3EA"
+        ]
+      },
+      "disc-rest-lo": {
+        "role": "neutral",
+        "displayName": "Resting Disc Shade",
+        "canonical": "#C6C2B1",
+        "tonalRamp": [
+          "#221F1A",
+          "#37342B",
+          "#4E4A3E",
+          "#676253",
+          "#847E6B",
+          "#A39D87",
+          "#C6C2B1",
+          "#E6E3D8"
+        ]
+      },
+      "chalk-soft": {
+        "role": "neutral",
+        "displayName": "Chalk On Enamel",
+        "canonical": "#A9C0B4",
+        "tonalRamp": [
+          "#1B2620",
+          "#2A3A31",
+          "#3F5548",
+          "#577062",
+          "#728C7E",
+          "#8EA79A",
+          "#A9C0B4",
+          "#CFDDD5"
+        ]
+      },
+      "steel-soft": {
+        "role": "neutral",
+        "displayName": "Chalk On Steel",
+        "canonical": "#A7AEA3",
+        "tonalRamp": [
+          "#1C1F1B",
+          "#2E322C",
+          "#43483F",
+          "#5A6055",
+          "#74796F",
+          "#8D948A",
+          "#A7AEA3",
+          "#CDD2CA"
+        ]
+      },
+      "ink-time": {
+        "role": "secondary",
+        "displayName": "Grease-Pencil Yellow",
+        "canonical": "#F5D020",
+        "tonalRamp": [
+          "#3A3005",
+          "#5C4C08",
+          "#7E690C",
+          "#A08611",
+          "#C4A517",
+          "#DFBB1C",
+          "#F5D020",
+          "#FBE88C"
+        ]
+      },
+      "ink-alert": {
+        "role": "secondary",
+        "displayName": "Alert Red",
+        "canonical": "#E8412C",
+        "tonalRamp": [
+          "#3A0D06",
+          "#57140A",
+          "#781D0F",
+          "#9B2716",
+          "#C0331F",
+          "#E8412C",
+          "#F0755F",
+          "#F8B2A3"
+        ]
+      },
+      "black": {
+        "role": "neutral",
+        "displayName": "Disc Black",
+        "canonical": "#14100E",
+        "tonalRamp": [
+          "#0A0807",
+          "#14100E",
+          "#241D19",
+          "#3A2F28",
+          "#55463C",
+          "#7A6657",
+          "#A89380",
+          "#D6C8B8"
+        ]
+      },
+      "key-edge": {
+        "role": "neutral",
+        "displayName": "Key Edge",
+        "canonical": "#B9B3A2",
+        "tonalRamp": [
+          "#211F1B",
+          "#38352D",
+          "#514D42",
+          "#6D6859",
+          "#8C8675",
+          "#A29C8B",
+          "#B9B3A2",
+          "#DAD6CB"
+        ]
+      },
+      "scratch": {
+        "role": "neutral",
+        "displayName": "Scratch",
+        "canonical": "rgba(242, 239, 228, 0.16)"
+      },
+      "scratch-hard": {
+        "role": "neutral",
+        "displayName": "Scratch Hard",
+        "canonical": "rgba(242, 239, 228, 0.3)"
+      },
+      "glare-low": {
+        "role": "neutral",
+        "displayName": "Glare, falling",
+        "canonical": "rgba(255, 255, 255, 0.02)"
+      },
+      "glare-mid": {
+        "role": "neutral",
+        "displayName": "Glare, rising",
+        "canonical": "rgba(255, 255, 255, 0.055)"
+      },
+      "glare-high": {
+        "role": "neutral",
+        "displayName": "Glare, peak",
+        "canonical": "rgba(255, 255, 255, 0.085)"
+      },
+      "bevel-lit": {
+        "role": "neutral",
+        "displayName": "Lit Bevel",
+        "canonical": "rgba(255, 255, 255, 0.28)"
+      },
+      "shade-09": {
+        "role": "neutral",
+        "displayName": "Recess 0.09",
+        "canonical": "rgba(0, 0, 0, 0.09)",
+        "scale": "recess-translucency",
+        "purpose": "Outer stop of a milled well and of a ghost slot; the faintest shade in the system."
+      },
+      "shade-12": {
+        "role": "neutral",
+        "displayName": "Recess 0.12",
+        "canonical": "rgba(0, 0, 0, 0.12)",
+        "scale": "recess-translucency",
+        "purpose": "Outer stop of the well behind a resting disc."
+      },
+      "shade-16": {
+        "role": "neutral",
+        "displayName": "Recess 0.16",
+        "canonical": "rgba(0, 0, 0, 0.16)",
+        "scale": "recess-translucency",
+        "purpose": "The tray floor's mid fall-off, and the pressed state of the armed commit rail."
+      },
+      "shade-24": {
+        "role": "neutral",
+        "displayName": "Recess 0.24",
+        "canonical": "rgba(0, 0, 0, 0.24)",
+        "scale": "recess-translucency",
+        "purpose": "The sunk panel of a setup stepper."
+      },
+      "shade-30": {
+        "role": "neutral",
+        "displayName": "Recess 0.3",
+        "canonical": "rgba(0, 0, 0, 0.3)",
+        "scale": "recess-translucency",
+        "purpose": "Inner stop of a ghost slot, and the underside bevel of the ready commit rail."
+      },
+      "shade-32": {
+        "role": "neutral",
+        "displayName": "Recess 0.32",
+        "canonical": "rgba(0, 0, 0, 0.32)",
+        "scale": "recess-translucency",
+        "purpose": "The cut side of the current quarter mark."
+      },
+      "shade-34": {
+        "role": "neutral",
+        "displayName": "Recess 0.34",
+        "canonical": "rgba(0, 0, 0, 0.34)",
+        "scale": "recess-translucency",
+        "purpose": "Inner stop of the well behind a resting disc; the deepest point of any recess."
+      },
+      "shade-60": {
+        "role": "neutral",
+        "displayName": "Recess 0.6",
+        "canonical": "rgba(0, 0, 0, 0.6)",
+        "scale": "recess-translucency",
+        "purpose": "The cut of an unmarked quarter mark, and the diffuse cast under a chalk key."
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Clock",
+        "purpose": "The running clock in the top rail. One per screen."
+      },
+      "headline": {
+        "displayName": "Headline Figure",
+        "purpose": "Setup stepper values; the heaviest figure outside the clock."
+      },
+      "title": {
+        "displayName": "Rail Title",
+        "purpose": "The rail heading during setup and lineup."
+      },
+      "figure-lg": {
+        "displayName": "Figure Large",
+        "purpose": "The game total beneath a disc at full time, when the board re-weights to the record."
+      },
+      "figure": {
+        "displayName": "Disc Figure",
+        "purpose": "Shift minutes beneath a disc on the field."
+      },
+      "figure-sm": {
+        "displayName": "Figure Small",
+        "purpose": "The staged count numeral on the dividing rail."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Input values and the commit rail's verb."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "The single line of explanatory prose; the count chip."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Region names, legends, field labels, rail status. Uppercase, wide tracking."
+      },
+      "micro": {
+        "displayName": "Micro Label",
+        "purpose": "The clock's state word and the end-of-quarter control."
+      }
+    },
+    "shadows": [
+      {
+        "name": "disc-proud",
+        "value": "0 7px 11px -3px rgba(0,0,0,.55), 0 2px 3px rgba(0,0,0,.45), inset 0 2px 0 rgba(255,255,255,.7), inset 0 -3px 2px rgba(0,0,0,.13)",
+        "purpose": "A disc on the field, sitting proud of the enamel with a real cast shadow."
+      },
+      {
+        "name": "disc-seated-paused",
+        "value": "0 2px 3px -1px rgba(0,0,0,.5)",
+        "purpose": "The flattened disc shadow of the paused board."
+      },
+      {
+        "name": "disc-recessed",
+        "value": "inset 0 3px 5px rgba(0,0,0,.4), inset 0 -2px 0 rgba(255,255,255,.45), 0 1px 0 rgba(255,255,255,.14)",
+        "purpose": "A disc resting in the tray, recessed rather than proud."
+      },
+      {
+        "name": "milled-well",
+        "value": "inset 0 3px 6px rgba(0,0,0,.45), inset 0 -2px 3px rgba(242,239,228,.09), 0 1px 0 rgba(242,239,228,.08)",
+        "purpose": "The seat a resting disc or an empty ghost slot sits in."
+      },
+      {
+        "name": "rail-bevel",
+        "value": "inset 0 1px 0 rgba(242,239,228,.15), inset 0 -1px 0 rgba(0,0,0,.55), 0 8px 18px -8px rgba(0,0,0,.7)",
+        "purpose": "Every frame rail: lit from above, dropping a tight shadow below."
+      },
+      {
+        "name": "tray-mouth",
+        "value": "inset 0 10px 18px -12px rgba(0,0,0,.95)",
+        "purpose": "The shadow the frame casts into the resting tray."
+      },
+      {
+        "name": "key-edge",
+        "value": "0 4px 0 #B9B3A2, 0 9px 16px -6px rgba(0,0,0,.7)",
+        "purpose": "The extruded side of the chalk clock key, which collapses to 1px on press while the key travels down."
+      },
+      {
+        "name": "key-edge-sm",
+        "value": "0 3px 0 #B9B3A2, 0 7px 13px -5px rgba(0,0,0,.6)",
+        "purpose": "The extruded edge of a chalk button plus the cast it throws; on press both collapse together to 0 1px 0 #B9B3A2, 0 3px 7px -4px rgba(0,0,0,.6)."
+      },
+      {
+        "name": "scratched-outline",
+        "value": "inset 0 0 0 2px rgba(242, 239, 228, 0.3)",
+        "purpose": "A control with no plate, cut into the ground rather than placed on it."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline: 3px solid #F2EFE4; outline-offset: 3px",
+        "purpose": "The single global focus treatment; there is no per-component focus style."
+      },
+      {
+        "name": "stepper-recess",
+        "value": "background: rgba(0,0,0,.24); box-shadow: inset 0 0 0 1.5px rgba(242,239,228,.16)",
+        "purpose": "A sunk panel rather than a plate: the one setup control that is a recess."
+      },
+      {
+        "name": "armed-rail-bevel",
+        "value": "inset 0 1px 0 rgba(255,255,255,.28), inset 0 -1px 0 rgba(0,0,0,.4)",
+        "purpose": "The lit top bevel and dark underside of the armed commit rail's red plate."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The only easing in the system, shared by the commit and every press."
+      },
+      {
+        "name": "commit-flip",
+        "value": "560ms cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The one authored moment: every moving disc runs the same FLIP so a substitution reads as one gesture."
+      },
+      {
+        "name": "rail-sweep",
+        "value": "0.56s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "A chalk sweep across the dividing rail on the same beat as the discs."
+      },
+      {
+        "name": "press",
+        "value": "0.12s-0.14s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Press response on discs and keys."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "0.01ms",
+        "purpose": "Under prefers-reduced-motion the discs seat instantly; all animation and transition durations collapse."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "region-narrow",
+        "value": "@container (max-width: 20.5rem) — lattice drops to 3 columns"
+      },
+      {
+        "name": "region-default",
+        "value": "lattice is 4 columns, disc 4.25rem"
+      },
+      {
+        "name": "region-wide",
+        "value": "@container (min-width: 27.5rem) — lattice goes to 5 columns, disc 4.75rem"
+      },
+      {
+        "name": "board-cap",
+        "value": "32rem max-width; there are no viewport media queries in the build"
+      }
+    ],
+    "recessScale": {
+      "name": "recess-translucency",
+      "purpose": "The closed set of black translucencies every recess and cast shadow in the build is drawn from. Reach for a step before inventing an alpha.",
+      "steps": [
+        "rgba(0, 0, 0, 0.09)",
+        "rgba(0, 0, 0, 0.12)",
+        "rgba(0, 0, 0, 0.16)",
+        "rgba(0, 0, 0, 0.24)",
+        "rgba(0, 0, 0, 0.3)",
+        "rgba(0, 0, 0, 0.32)",
+        "rgba(0, 0, 0, 0.34)",
+        "rgba(0, 0, 0, 0.6)"
+      ]
+    },
+    "textures": [
+      {
+        "name": "grain",
+        "value": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='b'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.014 .85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23b)' opacity='.17'/%3E%3C/svg%3E\")",
+        "purpose": "A --grain token on :root: 140px turbulence stretched along one axis at 17%, consumed by every frame rail and the tray so all graphite is brushed the same direction. Authored inline, never fetched."
+      },
+      {
+        "name": "enamel-tooth",
+        "value": "160px fractalNoise, baseFrequency .9, numOctaves 3, at opacity 0.055 in mix-blend-mode: overlay",
+        "purpose": "The faint fired-enamel tooth over the field and the setup sheet."
+      },
+      {
+        "name": "enamel-glare",
+        "value": "linear-gradient(101deg, transparent 11%, rgba(255,255,255,.055) 25%, rgba(255,255,255,.085) 33%, rgba(255,255,255,.02) 41%, transparent 52%)",
+        "purpose": "The raking sheen: the glare band rises, peaks and falls in one pass across the enamel."
+      }
+    ],
+    "radiusScale": {
+      "purpose": "Radius outside the disc never exceeds 0.25rem. 1px is the world's tightest corner: something stamped or cut rather than moulded.",
+      "steps": [
+        "0",
+        "1px",
+        "0.125rem",
+        "0.1875rem",
+        "0.25rem",
+        "50% (disc only)"
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "Field Disc",
+      "kind": "custom",
+      "refersTo": "disc-field",
+      "description": "A chalk-enamel token for a player on the field: proud of the enamel, with the stepped one-minute arc on its rim.",
+      "html": "<div class=\"ds-cell\"><button type=\"button\" class=\"ds-disc\"><svg class=\"ds-arc\" viewBox=\"0 0 100 100\" aria-hidden=\"true\"><path d=\"M 50 4.7 A 45.5 45.5 0 0 1 70.4 9.6\" stroke=\"#F5D020\"/><path d=\"M 72.6 11.3 A 45.8 45.8 0 0 1 87.6 27.4\" stroke=\"#F5D020\"/><path d=\"M 89.2 30.1 A 45.3 45.3 0 0 1 95.1 49.6\" stroke=\"#F5D020\"/><path d=\"M 95.2 53.3 A 45.6 45.6 0 0 1 89.4 71.1\" stroke=\"rgba(20,16,14,.13)\"/><path d=\"M 87.3 73.8 A 45.4 45.4 0 0 1 72.0 89.1\" stroke=\"rgba(20,16,14,.13)\"/><path d=\"M 69.6 90.6 A 45.7 45.7 0 0 1 50.3 95.4\" stroke=\"rgba(20,16,14,.13)\"/></svg><span class=\"ds-disc-num\">7</span></button><span class=\"ds-cell-name\">Ava</span><span class=\"ds-cell-times\"><b class=\"ds-t-a\">3</b><i class=\"ds-t-b\">12</i></span></div>",
+      "css": ".ds-cell { --disc: 4.25rem; display: flex; flex-direction: column; align-items: center; font-family: Chivo, system-ui, sans-serif; font-variant-numeric: tabular-nums; } .ds-disc { position: relative; width: var(--disc); height: var(--disc); padding: 0; border: 0; border-radius: 50%; cursor: pointer; background: radial-gradient(82% 82% at 33% 22%, #FFFEF8, #F2EFE4 46%, #D9D4C2 100%); box-shadow: 0 7px 11px -3px rgba(0,0,0,.55), 0 2px 3px rgba(0,0,0,.45), inset 0 2px 0 rgba(255,255,255,.7), inset 0 -3px 2px rgba(0,0,0,.13); transition: transform .14s cubic-bezier(.16,1,.3,1), box-shadow .14s cubic-bezier(.16,1,.3,1); } .ds-disc:active { transform: translateY(2px) scale(.97); } .ds-disc:focus-visible { outline: 3px solid #F2EFE4; outline-offset: 3px; } .ds-arc { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; } .ds-arc path { fill: none; stroke-linecap: butt; stroke-width: 8.5; stroke-opacity: .93; } .ds-disc-num { position: absolute; inset: 0; display: grid; place-items: center; font-size: calc(var(--disc) * .46); font-weight: 900; letter-spacing: -.05em; line-height: 1; color: #14100E; pointer-events: none; } .ds-cell-name { margin-top: .4rem; font-size: .75rem; font-weight: 700; line-height: 1.25; color: #F2EFE4; } .ds-cell-times { display: flex; align-items: baseline; gap: .28rem; line-height: 1; } .ds-t-a { font-size: 1.25rem; font-weight: 900; letter-spacing: -.04em; color: #F5D020; } .ds-t-b { font-size: .6875rem; font-weight: 700; font-style: normal; color: #A9C0B4; }"
+    },
+    {
+      "name": "Overdue Disc",
+      "kind": "custom",
+      "refersTo": "disc-field",
+      "description": "A disc whose ring has completed: twelve lit wedges turn alert red and the shift figure takes a 1px-radius red plate, because red is always a fill.",
+      "html": "<div class=\"ds-cell ds-over\"><button type=\"button\" class=\"ds-disc\"><svg class=\"ds-arc\" viewBox=\"0 0 100 100\" aria-hidden=\"true\"><circle cx=\"50\" cy=\"50\" r=\"45.5\" fill=\"none\" stroke=\"#E8412C\" stroke-width=\"8.5\" stroke-opacity=\".93\" stroke-dasharray=\"20.6 3.2\"/></svg><span class=\"ds-disc-num\">11</span></button><span class=\"ds-cell-name\">Noor</span><span class=\"ds-cell-times\"><b class=\"ds-t-a ds-t-over\">14</b><i class=\"ds-t-b\">21</i></span></div>",
+      "css": ".ds-over { --disc: 4.25rem; display: flex; flex-direction: column; align-items: center; font-family: Chivo, system-ui, sans-serif; font-variant-numeric: tabular-nums; } .ds-over .ds-disc { position: relative; width: var(--disc); height: var(--disc); padding: 0; border: 0; border-radius: 50%; cursor: pointer; background: radial-gradient(82% 82% at 33% 22%, #FFFEF8, #F2EFE4 46%, #D9D4C2 100%); box-shadow: 0 7px 11px -3px rgba(0,0,0,.55), 0 2px 3px rgba(0,0,0,.45), inset 0 2px 0 rgba(255,255,255,.7), inset 0 -3px 2px rgba(0,0,0,.13); } .ds-over .ds-disc:active { transform: translateY(2px) scale(.97); } .ds-over .ds-arc { position: absolute; inset: 0; width: 100%; height: 100%; } .ds-over .ds-disc-num { position: absolute; inset: 0; display: grid; place-items: center; font-size: calc(var(--disc) * .46); font-weight: 900; letter-spacing: -.05em; color: #14100E; } .ds-over .ds-cell-name { margin-top: .4rem; font-size: .75rem; font-weight: 700; color: #F2EFE4; } .ds-over .ds-cell-times { display: flex; align-items: baseline; gap: .28rem; line-height: 1; } .ds-t-over { font-size: 1.25rem; font-weight: 900; letter-spacing: -.04em; color: #14100E; background: #E8412C; padding: .06rem .28rem .1rem; border-radius: 1px; } .ds-over .ds-t-b { font-size: .6875rem; font-weight: 700; font-style: normal; color: #A9C0B4; }"
+    },
+    {
+      "name": "Resting Disc",
+      "kind": "custom",
+      "refersTo": "disc-rest",
+      "description": "The same disc at rest in the graphite tray: the dimmed, cooled counterpart face (#F3F0E6 / #E4E0D3 / #C6C2B1), recessed into a milled well, and with no arc at all.",
+      "html": "<div class=\"ds-rest\"><span class=\"ds-well\"></span><button type=\"button\" class=\"ds-disc-rest\"><span class=\"ds-disc-num\">4</span></button><span class=\"ds-rest-name\">Milo</span><span class=\"ds-rest-times\"><b>2</b><i>9</i></span></div>",
+      "css": ".ds-rest { --disc: 4.25rem; position: relative; display: flex; flex-direction: column; align-items: center; padding-top: 3px; font-family: Chivo, system-ui, sans-serif; font-variant-numeric: tabular-nums; background: #2A2E2B; } .ds-well { position: absolute; top: 0; left: 50%; width: calc(var(--disc) + 6px); height: calc(var(--disc) + 6px); transform: translateX(-50%); border-radius: 50%; background: radial-gradient(closest-side, rgba(0,0,0,.34), rgba(0,0,0,.12)); box-shadow: inset 0 3px 6px rgba(0,0,0,.45), inset 0 -2px 3px rgba(242,239,228,.09), 0 1px 0 rgba(242,239,228,.08); } .ds-disc-rest { position: relative; width: var(--disc); height: var(--disc); padding: 0; border: 0; border-radius: 50%; cursor: pointer; background: radial-gradient(82% 82% at 33% 22%, #F3F0E6, #E4E0D3 52%, #C6C2B1 100%); box-shadow: inset 0 3px 5px rgba(0,0,0,.4), inset 0 -2px 0 rgba(255,255,255,.45), 0 1px 0 rgba(255,255,255,.14); } .ds-disc-rest:active { transform: translateY(2px) scale(.97); } .ds-disc-rest:focus-visible { outline: 3px solid #F2EFE4; outline-offset: 3px; } .ds-rest .ds-disc-num { position: absolute; inset: 0; display: grid; place-items: center; font-size: calc(var(--disc) * .46); font-weight: 900; letter-spacing: -.05em; color: #14100E; } .ds-rest-name { margin-top: .4rem; font-size: .75rem; font-weight: 700; color: #F2EFE4; } .ds-rest-times { display: flex; align-items: baseline; gap: .28rem; line-height: 1; } .ds-rest-times b { font-size: 1.25rem; font-weight: 700; letter-spacing: -.04em; color: #A7AEA3; } .ds-rest-times i { font-size: .6875rem; font-weight: 700; font-style: normal; color: #A7AEA3; }"
+    },
+    {
+      "name": "Staged Disc",
+      "kind": "custom",
+      "refersTo": "disc-field",
+      "description": "A disc marked for the next substitution: two offset dashed grease-pencil rings, provisional and drawn rather than rendered.",
+      "html": "<button type=\"button\" class=\"ds-disc-staged\"><span class=\"ds-disc-num\">9</span></button>",
+      "css": ".ds-disc-staged { --disc: 4.25rem; position: relative; width: var(--disc); height: var(--disc); margin: .75rem; padding: 0; border: 0; border-radius: 50%; cursor: pointer; transform: scale(.94); background: radial-gradient(82% 82% at 33% 22%, #FFFEF8, #F2EFE4 46%, #D9D4C2 100%); box-shadow: 0 7px 11px -3px rgba(0,0,0,.55), 0 2px 3px rgba(0,0,0,.45), inset 0 2px 0 rgba(255,255,255,.7); font-family: Chivo, system-ui, sans-serif; } .ds-disc-staged::before, .ds-disc-staged::after { content: ''; position: absolute; border-radius: 50%; border: 3px dashed #F5D020; pointer-events: none; } .ds-disc-staged::before { inset: -7px; } .ds-disc-staged::after { inset: -8px; opacity: .55; transform: rotate(9deg); } .ds-disc-staged:active { transform: translateY(2px) scale(.91); } .ds-disc-staged:focus-visible { outline: 3px solid #F2EFE4; outline-offset: 3px; } .ds-disc-staged .ds-disc-num { position: absolute; inset: 0; display: grid; place-items: center; font-size: calc(var(--disc) * .46); font-weight: 900; letter-spacing: -.05em; color: #14100E; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Clock Rail",
+      "kind": "nav",
+      "refersTo": "clock-run",
+      "description": "The top frame rail: scratched quarter marks, the clock in chalk at display size, and the largest target on the board.",
+      "html": "<header class=\"ds-rail\"><div class=\"ds-periods\"><div class=\"ds-marks\"><span class=\"ds-mark ds-mark-done\"></span><span class=\"ds-mark ds-mark-now\"></span><span class=\"ds-mark\"></span><span class=\"ds-mark\"></span></div><p class=\"ds-periods-label\">Quarter 2</p></div><div class=\"ds-clockbar\"><div class=\"ds-clock-read\"><span class=\"ds-clock-label\">Elapsed</span><output class=\"ds-clock-time\">7:42</output></div><button type=\"button\" class=\"ds-clock-run\">Start</button></div></header>",
+      "css": ".ds-rail { position: relative; padding: .6rem .75rem .7rem; font-family: Chivo, system-ui, sans-serif; font-variant-numeric: tabular-nums; background: linear-gradient(180deg, #3B413C, #2A2E2B 62%, #202421); box-shadow: inset 0 1px 0 rgba(242,239,228,.15), inset 0 -1px 0 rgba(0,0,0,.55), 0 8px 18px -8px rgba(0,0,0,.7); } .ds-periods { display: flex; align-items: center; gap: .625rem; margin-bottom: .6rem; } .ds-marks { display: flex; align-items: center; gap: .4rem; } .ds-mark { width: 4px; height: 19px; border-radius: 1px; background: rgba(0,0,0,.6); box-shadow: inset -1.5px 0 0 rgba(242,239,228,.24); } .ds-mark:nth-child(odd) { transform: rotate(-2.5deg); } .ds-mark:nth-child(even) { transform: rotate(1.5deg); } .ds-mark-done { background: #A7AEA3; box-shadow: inset -1px 0 0 rgba(0,0,0,.4); } .ds-mark-now { height: 25px; background: #F2EFE4; box-shadow: inset -1px 0 0 rgba(0,0,0,.32), 0 0 0 2px rgba(242,239,228,.13); } .ds-periods-label { flex: 1; margin: 0; font-size: .8125rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #A7AEA3; } .ds-clockbar { display: flex; align-items: stretch; gap: .6rem; } .ds-clock-read { flex: 1; display: flex; flex-direction: column; justify-content: center; } .ds-clock-label { font-size: .6875rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: #A7AEA3; } .ds-clock-time { display: block; font-size: clamp(2.75rem, 15vw, 3.75rem); font-weight: 900; line-height: .92; letter-spacing: -.045em; color: #F2EFE4; } .ds-clock-run { flex: 0 0 8.25rem; min-height: 5.25rem; border: 0; border-radius: .25rem; font: inherit; font-size: 1.25rem; font-weight: 900; letter-spacing: .02em; text-transform: uppercase; cursor: pointer; background: #F2EFE4; color: #14100E; box-shadow: 0 4px 0 #B9B3A2, 0 9px 16px -6px rgba(0,0,0,.7); transition: transform .12s cubic-bezier(.16,1,.3,1), box-shadow .12s cubic-bezier(.16,1,.3,1); } .ds-clock-run:active { transform: translateY(3px); box-shadow: 0 1px 0 #B9B3A2, 0 5px 10px -6px rgba(0,0,0,.7); } .ds-clock-run:focus-visible { outline: 3px solid #F2EFE4; outline-offset: 3px; }"
+    },
+    {
+      "name": "Dividing Rail (armed)",
+      "kind": "custom",
+      "refersTo": "commit-rail-armed",
+      "description": "The boundary the discs cross. It carries the staged count both ways at 1.0625rem/900 and takes the alert-red plate, lit bevel and all, only when the batch balances.",
+      "html": "<div class=\"ds-divide\"><span class=\"ds-rail-count\"><b>2</b> off</span><button type=\"button\" class=\"ds-commit\">Substitute</button><span class=\"ds-rail-count\"><b>2</b> on</span></div>",
+      "css": ".ds-divide { position: relative; display: flex; align-items: center; gap: .5rem; min-height: 3.25rem; padding: .4rem .75rem; overflow: hidden; font-family: Chivo, system-ui, sans-serif; font-variant-numeric: tabular-nums; background: #E8412C; box-shadow: inset 0 1px 0 rgba(255,255,255,.28), inset 0 -1px 0 rgba(0,0,0,.4); } .ds-rail-count { flex: none; font-size: .75rem; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; color: #14100E; } .ds-rail-count b { font-size: 1.0625rem; font-weight: 900; letter-spacing: -.03em; } .ds-commit { flex: 1; min-height: 3.25rem; border: 0; border-radius: .1875rem; font: inherit; font-size: 1.125rem; font-weight: 900; letter-spacing: .04em; text-transform: uppercase; cursor: pointer; background: transparent; color: #14100E; } .ds-commit:active { background: rgba(0,0,0,.16); } .ds-commit:focus-visible { outline: 3px solid #F2EFE4; outline-offset: 3px; }"
+    },
+    {
+      "name": "Chalk Key",
+      "kind": "button",
+      "refersTo": "button-chalk",
+      "description": "The primary key: a chalk plate whose extruded edge and diffuse cast collapse together as it travels down on press.",
+      "html": "<button type=\"button\" class=\"ds-btn-chalk\">Add</button>",
+      "css": ".ds-btn-chalk { display: inline-flex; align-items: center; justify-content: center; min-height: 2.75rem; padding: 0 .875rem; border: 0; border-radius: .125rem; font-family: Chivo, system-ui, sans-serif; font-size: .8125rem; font-weight: 900; letter-spacing: .07em; text-transform: uppercase; cursor: pointer; background: #F2EFE4; color: #14100E; box-shadow: 0 3px 0 #B9B3A2, 0 7px 13px -5px rgba(0,0,0,.6); transition: transform .12s cubic-bezier(.16,1,.3,1), box-shadow .12s cubic-bezier(.16,1,.3,1); } .ds-btn-chalk:active { transform: translateY(2px); box-shadow: 0 1px 0 #B9B3A2, 0 3px 7px -4px rgba(0,0,0,.6); } .ds-btn-chalk:focus-visible { outline: 3px solid #F2EFE4; outline-offset: 3px; }"
+    },
+    {
+      "name": "Scratch Key",
+      "kind": "button",
+      "refersTo": "button-scratch",
+      "description": "The secondary key: no plate, a scratched chalk outline cut into the ground. Disabled keeps full opacity and drops to chalk-soft.",
+      "html": "<button type=\"button\" class=\"ds-btn-scratch\">Edit roster</button> <button type=\"button\" class=\"ds-btn-scratch\" disabled>Set the lineup</button>",
+      "css": ".ds-btn-scratch { display: inline-flex; align-items: center; justify-content: center; min-height: 2.75rem; padding: 0 .875rem; border: 0; border-radius: .125rem; font-family: Chivo, system-ui, sans-serif; font-size: .8125rem; font-weight: 900; letter-spacing: .07em; text-transform: uppercase; cursor: pointer; background: transparent; color: #F2EFE4; box-shadow: inset 0 0 0 2px rgba(242,239,228,.3); } .ds-btn-scratch:active { background: rgba(242,239,228,.14); box-shadow: inset 0 0 0 2px #F2EFE4; } .ds-btn-scratch:focus-visible { outline: 3px solid #F2EFE4; outline-offset: 3px; } .ds-btn-scratch:disabled { cursor: default; opacity: 1; color: #A9C0B4; box-shadow: inset 0 0 0 2px rgba(242,239,228,.16); transform: none; }"
+    },
+    {
+      "name": "Milled Input",
+      "kind": "input",
+      "refersTo": "input-milled",
+      "description": "A field milled into the enamel: deep enamel low tint, inset shadow, scratch edge, grease-pencil caret.",
+      "html": "<label class=\"ds-inputgroup\"><span class=\"ds-input-label\">Name</span><input class=\"ds-input\" type=\"text\" placeholder=\"Ava\"></label>",
+      "css": ".ds-inputgroup { display: flex; flex-direction: column; gap: .3rem; font-family: Chivo, system-ui, sans-serif; padding: .75rem; background: radial-gradient(125% 70% at 50% -8%, #0C5239, #0A4732 46%, #063524); } .ds-input-label { font-size: .75rem; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; color: #A9C0B4; } .ds-input { width: 100%; min-height: 3rem; padding: 0 .625rem; border: 0; border-radius: .125rem; font: inherit; font-size: 1.125rem; font-weight: 700; color: #F2EFE4; background: #063524; box-shadow: inset 0 2px 4px rgba(0,0,0,.45), inset 0 0 0 1.5px rgba(242,239,228,.16); caret-color: #F5D020; } .ds-input::placeholder { color: #A9C0B4; opacity: 1; font-weight: 400; } .ds-input:focus-visible { outline: 3px solid #F2EFE4; outline-offset: 3px; }"
+    },
+    {
+      "name": "Stepper",
+      "kind": "custom",
+      "refersTo": "button-scratch",
+      "description": "A format control: label, a heavy value, and two authored SVG glyphs at one stroke weight.",
+      "html": "<div class=\"ds-stepper\"><span class=\"ds-stepper-label\">On the field</span><div class=\"ds-stepper-ctrl\"><button type=\"button\" class=\"ds-stepper-btn\" aria-label=\"Fewer\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6 12h12\"/></svg></button><output class=\"ds-stepper-value\">7</output><button type=\"button\" class=\"ds-stepper-btn\" aria-label=\"More\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 6v12M6 12h12\"/></svg></button></div></div>",
+      "css": ".ds-stepper { display: flex; flex-direction: column; gap: .45rem; width: 12rem; padding: .7rem .75rem; border-radius: .125rem; font-family: Chivo, system-ui, sans-serif; font-variant-numeric: tabular-nums; background: rgba(0,0,0,.24); box-shadow: inset 0 0 0 1.5px rgba(242,239,228,.16); } .ds-stepper-label { font-size: .75rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: #A9C0B4; } .ds-stepper-ctrl { display: flex; align-items: center; justify-content: space-between; gap: .5rem; } .ds-stepper-btn { display: inline-flex; align-items: center; justify-content: center; width: 2.75rem; min-height: 2.75rem; padding: 0; border: 0; border-radius: .125rem; cursor: pointer; background: transparent; color: #F2EFE4; box-shadow: inset 0 0 0 2px rgba(242,239,228,.3); } .ds-stepper-btn:active { background: rgba(242,239,228,.14); box-shadow: inset 0 0 0 2px #F2EFE4; } .ds-stepper-btn:focus-visible { outline: 3px solid #F2EFE4; outline-offset: 3px; } .ds-stepper-btn svg { width: 1.5rem; height: 1.5rem; } .ds-stepper-btn path { stroke: currentColor; stroke-width: 2.25; stroke-linecap: round; fill: none; } .ds-stepper-value { font-size: 1.75rem; font-weight: 900; letter-spacing: -.04em; color: #F2EFE4; }"
+    },
+    {
+      "name": "Region Head",
+      "kind": "nav",
+      "refersTo": "count-chip",
+      "description": "The head of a region: an uppercase tracked name, a scratched count chip, and a two-ink legend.",
+      "html": "<div class=\"ds-regionhead\"><h2 class=\"ds-region-name\">On the field <span class=\"ds-count\">7</span></h2><p class=\"ds-legend\"><span class=\"ds-legend-a\">Shift</span><span>Game</span></p></div>",
+      "css": ".ds-regionhead { display: flex; align-items: baseline; justify-content: space-between; gap: .75rem; padding: .875rem .75rem; font-family: Chivo, system-ui, sans-serif; font-variant-numeric: tabular-nums; background: radial-gradient(125% 70% at 50% -8%, #0C5239, #0A4732 46%, #063524); } .ds-region-name { margin: 0; font-size: .75rem; font-weight: 900; letter-spacing: .14em; text-transform: uppercase; color: #A9C0B4; } .ds-count { display: inline-block; margin-left: .3rem; padding: 0 .32rem; font-size: .8125rem; letter-spacing: 0; color: #F2EFE4; box-shadow: inset 0 0 0 1.5px rgba(242,239,228,.3); } .ds-legend { display: flex; gap: .55rem; margin: 0; font-size: .75rem; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; color: #A9C0B4; } .ds-legend-a { color: #F5D020; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Enamelled Magnet Board, where the discs keep their own time",
+    "overview": "The whole product is one physical object seen head-on: a deep enamel board held in a graphite steel frame, with chalk-enamel discs sitting on it. Every surface in the build is one of three materials — enamel ground, graphite rail and tray, chalk disc — and nothing exists that is not made of one of them. The board's division is field versus tray, never a halfway line, because the product tracks on and off rather than positions. Depth is literal: a disc on the field is proud of the enamel with a real cast shadow, a disc at rest is recessed into a milled well in the steel, and an empty slot is a well with no disc in it.\n\nThe ink set is closed and each ink owns exactly one meaning. Grease-pencil yellow is elapsed time and nothing else. Alert red is overdue and the commit, and nothing else. Chalk white is identity. Secondary text is never grey: it is tinted out of the surface it sits on, green-tinted on enamel and warm-grey-tinted on graphite. One type family, Chivo, self-hosted for a field with no network, at three weights and always with tabular figures, carries an extreme size contrast between the clock and its labels.\n\nThe density is high and glare-hostile by design: this is read at arm's length in sunlight, in one glance, without reading words. Confirmed rejections: the dark app with a neon-green accent and rounded player cards, and the top-down pitch diagram with positional dots. There are no halfway lines, no pitch markings, no positions.",
+    "keyCharacteristics": [
+      "Three materials only: enamel ground, graphite frame and tray, chalk disc.",
+      "A closed ink set where each ink owns exactly one meaning.",
+      "Nothing floats: every disc sits on a fixed shared lattice.",
+      "One scale rules every disc, so comparison needs no arithmetic.",
+      "Depth carries state; colour is never asked to carry on-versus-rest alone.",
+      "One authored moment of motion, a 560ms commit that propagates through the whole board."
+    ],
+    "rules": [
+      {
+        "name": "The Closed Ink Rule",
+        "body": "The set above is complete. No new hue enters the board, and no existing ink takes a second meaning. Yellow is duration; red is overdue and commit; chalk is identity.",
+        "section": "colors"
+      },
+      {
+        "name": "The Red-Is-A-Plate Rule",
+        "body": "Alert red is always a fill carrying disc black on top, never thin ink on the ground. As text on enamel it measures 2.66:1; as a plate under disc black it measures 4.70:1. On a glare-lit sideline screen only the plate is legible, so the overdue shift figure gets a red plate and the commit rail turns red as a whole surface.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tinted-Not-Grey Rule",
+        "body": "Secondary text is tinted out of its own surface. On enamel use chalk-soft; on graphite use steel-soft. Never a neutral grey, because a neutral grey on enamel reads as dirt.",
+        "section": "colors"
+      },
+      {
+        "name": "The White-Is-Light Rule",
+        "body": "White translucencies (the glare band, the lit bevel, the inset top highlight on a disc) are light falling on a material. Opaque near-white is always chalk, the identity ink. Never mix the two roles: a surface does not get \"a lighter chalk\", it gets a highlight.",
+        "section": "colors"
+      },
+      {
+        "name": "The Paused Keeps Its Inks Rule",
+        "body": "The paused state dulls the ground (enamel to #24382F, graphite to #31352F) and flattens the disc shadow to a 2px seat, and touches no ink. A stoppage is exactly when the coach reads who is overdue, so the signals stay at full strength while the material goes quiet.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Figures Rule",
+        "body": "Tabular numerals are on at the body root and never turned off. Every number on the board is a quantity that changes in place; proportional digits would make it jitter.",
+        "section": "typography"
+      },
+      {
+        "name": "The Extreme Contrast Rule",
+        "body": "Between the clock and its label there is no intermediate step. Heavy weight 900 with negative tracking for anything numeric; 700 with wide positive tracking and uppercase for anything that names. There is no 500 and no 600 in this system.",
+        "section": "typography"
+      },
+      {
+        "name": "The Figure-Outweighs-Its-Label Rule",
+        "body": "Wherever a number sits with a word — the clock and \"Elapsed\", the staged count and \"on\", the shift figure and its legend — the number is 900 with negative tracking at two or more steps the label's size. The four figure steps (1.75 / 1.375 / 1.25 / 1.0625rem) exist to give that pairing room at four different densities, not to grade importance.",
+        "section": "typography"
+      },
+      {
+        "name": "The Weight-Three Rule",
+        "body": "400 for prose, 700 for labels and names, 900 for figures and verbs. Nothing else, even though the variable axis would allow it.",
+        "section": "typography"
+      },
+      {
+        "name": "The Nothing-Floats Rule",
+        "body": "Every disc sits on the shared lattice. No free positioning, no overlap, no drag-anywhere. If an element cannot be placed on the lattice, it is not a disc.",
+        "section": "layout"
+      },
+      {
+        "name": "The Container-Not-Viewport Rule",
+        "body": "Responsive column counts come from container queries on the region. A 1024px window must not buy the board extra columns.",
+        "section": "layout"
+      },
+      {
+        "name": "The Three-Signal Rule",
+        "body": "On-field versus resting is carried three non-colour ways at once — region, elevation, and the arc. Never let colour alone carry it.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Press-Is-Physical Rule",
+        "body": "Every key with an extruded edge travels down by the height of that edge on :active, and its edge and its diffuse cast collapse together in the same beat. An extrusion always carries a cast — an edge with no shadow under it is a flat offset, not a physical key — and there is no shadow in this build that fails to respond to touch.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Paused-Flattens-Only-Material Rule",
+        "body": "When the clock is paused, elevation and ground go quiet; the inks do not.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Near-Square Rule",
+        "body": "Radius outside the disc never exceeds 0.25rem, and the scale is 0 / 1px / 0.125rem / 0.1875rem / 0.25rem. A larger radius turns a stamped plate into a soft app card, which is the world this build refuses.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Circle-Is-The-Disc Rule",
+        "body": "Round means \"a person on the board\". Nothing else in the system is round — not an avatar, not a badge, not a button.",
+        "section": "shapes"
+      },
+      {
+        "name": "The One-Stroke-Weight Rule",
+        "body": "Every icon is authored SVG at 2.25 stroke with round caps. Glyph fonts, emoji and icon packs are out.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do build every surface from the three materials: enamel ground, graphite rail or tray, chalk disc.",
+      "Do give alert red a full plate with disc-black text whenever it appears (4.70:1), per the Red-Is-A-Plate Rule.",
+      "Do tint secondary text from its own surface: chalk-soft on enamel, steel-soft on graphite.",
+      "Do signal on-field versus resting three non-colour ways at once: region, elevation, arc.",
+      "Do size a disc's numeral off the disc so one scale rules every disc.",
+      "Do keep tabular figures on for every number.",
+      "Do use container queries on the region for column counts; the board is capped at 32rem.",
+      "Do step the time arc into discrete one-minute wedges, twelve to the ring.",
+      "Do compute every duration from stored wall-clock timestamps, so a locked screen cannot make the board drift.",
+      "Do author every icon as SVG at a single 2.25 stroke weight with round caps.",
+      "Do make a key with an extruded edge travel down by that edge's height on press, and pair every extrusion with the diffuse cast it would throw.",
+      "Do take depth from the recess translucency scale (0.09 / 0.12 / 0.16 / 0.24 / 0.30 / 0.32 / 0.34 / 0.60 black) rather than inventing a new alpha.",
+      "Do keep radius outside the disc on the near-square scale: 0 / 1px / 0.125rem / 0.1875rem / 0.25rem.",
+      "Do reuse the --grain token for any graphite surface, so all steel is brushed the same way.",
+      "Do let the number outweigh its label wherever the two sit together."
+    ],
+    "donts": [
+      "Don't add a hue to the ink set, or give an existing ink a second meaning.",
+      "Don't set alert red as thin text on the enamel (2.66:1).",
+      "Don't use a neutral grey for secondary text.",
+      "Don't weaken an ink in the paused state; dull the ground and flatten the shadow instead.",
+      "Don't float anything off the lattice, or let a disc overlap another.",
+      "Don't use viewport media queries for the lattice's column count.",
+      "Don't draw the elapsed arc as a smooth sweep, and don't let two discs use different minute scales.",
+      "Don't make anything other than a disc a circle.",
+      "Don't ship emoji, an icon font, or a unicode glyph standing in for an icon.",
+      "Don't introduce a font weight outside 400 / 700 / 900, or a second family.",
+      "Don't load a webfont from a network; the field has none.",
+      "Don't draw a halfway line, pitch marking, or positional dot — the division is field versus tray.",
+      "Don't fade a disabled control with opacity; drop it to chalk-soft on a soft scratch outline.",
+      "Don't give anything a radius above 0.25rem, and don't round a rail.",
+      "Don't treat a white translucency as a lighter chalk; white is light, chalk is identity.",
+      "Don't ship an extruded edge with no cast shadow under it."
+    ],
+    "nextIncrement": "The grease-pencil arc is present and no longer machine-uniform (stable per-disc, per-wedge jitter in radius, start angle, span and stroke width at 0.93 stroke opacity) but still reads as an irregular vector arc rather than as wax laid on enamel. The next increment on this world is the arc's material."
+  }
+}
