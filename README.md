@@ -64,7 +64,7 @@ No positions, formations, or pitch diagram. It tracks on and off, not where. No 
 | `DESIGN.md` | The design system, derived from the shipped artifact |
 | `.impeccable/` | Design process state and the reviewed screenshots |
 
-## Licence
+## License
 
 [MIT](LICENSE).
 
